@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slicing UI - Part 2 || Redesign Netflix</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <div class="overlay"></div>
+    <nav class="nav-navbar">
+        <div class="navbar-logo"><a href=""><img width="150px" src="images/logos_netflix.png" alt=""></a></div>
+        <div class="menu-item">
+            <a href="#">Movies</a>
+            <a href="#">TV Shows</a>
+            <a href="#">New & Popular</a>
+        </div>
+        <div class="menu-extra">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">ID &#x25BD;</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <a class="btn-netflix" href="#">Masuk</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="Hero-header">Nikmati Tontonan Dimana Saja, dan Kapan Saja</h2>
+            <p>Tonton apa saja secara online dari komputer pribadi atau di perangkat yang terhubung ke Internet dan mendukung aplikasi Netflix, dan gunakan download untuk menonton saat kamu di perjalanan dan tidak punya koneksi Internet.</p>
+            <a href="">Daftar Sekarang</a>
+        </div>
+        <div class="hero-image">
+            <img width="560" src="images/Img-hero.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- Service Content -->
+    <section class="service">
+        <h2 class="service-text">Layanan Terbaik yang <br>Tidak Mengecewakan</h2>
+        <div class="service-card">
+            <div class="service-list">
+                <header class="service-header">
+                    <img src="images/1.png" alt="TV">
+                </header>
+                <h4 class="service-title">Tonton langsung di TV</h4>
+                <p class="service-description">
+                    Tonton di Smart TV, Playstation, Xbox, Chromecast, Apple TV, pemutar Blu-ray, dan banyak lagi
+                </p>
+            </div>
+            <div class="service-list">
+                <header class="service-header">
+                    <img src="images/2.png" alt="Handphone">
+                </header>
+                <h4 class="service-title">Download untuk offline</h4>
+                <p class="service-description">
+                    Simpan dengan mudah agar selalu ada acara TV dan film yang bisa ditonton
+                </p>
+            </div>
+            <div class="service-list">
+                <header class="service-header">
+                    <img src="images/3.png" alt="PC">
+                </header>
+                <h4 class="service-title">Akses berbagai perangkat</h4>
+                <p class="service-description">
+                    Streaming film dan acara TV tak terbatas di ponsel, tablet, laptop, dan TV-mu
+                </p>
+            </div>
+            <div class="service-list">
+                <header class="service-header">
+                    <img width="" src="images/4.png" alt="child">
+                </header>
+                <h4 class="service-title">Buat profil untuk anak</h4>
+                <p class="service-description">
+                    Profil anak dilengkapi kontrol <br> orang tua yang dilindungi <br> PIN sehingga kamu bisa membatasi rating usia konten yang bisa ditonton anak 
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section About -->
+    <section class="about">
+        <div class="about-image">
+            <img width="560" src="images/photo.png" alt="photo">
+        </div>
+        <div class="about-text">
+            <h2>Tonton Film, Acara TV Tak Terbatas, dan Lebih Banyak Lagi</h2>
+        </div>
+    </section>
+
+
+    <!-- section popular -->
+    <section class="popular">
+        <div class="popular-content">
+            <div class="popular-navigasi">
+                <h2>Film dan Acara TV <br> Populer Bulan Ini</h2>
+            </div>
+            <div class="popular-button">
+                <a href="">Lihat Semua</a>
+            </div>
+        </div>
+        <div class="popular-card">
+            <div class="popular-list">
+                <header class="popular-image">
+                    <img src="images/p-1.png" alt="logo1">
+                </header>
+                <div class="popular-title">
+                    <h4 class="popular-text">Peaky Blinders</h4>
+                    <p class="popular-paragraph">Crime, Drama</p>
+                </div>
+                <footer class="popular-footer">
+                    <img src="images/Union.png" alt="">
+                    <p class="footer-text">8.8/10 IMDb</p>
+                </footer>
+            </div>
+            <div class="popular-list">
+                <header class="popular-image">
+                    <img src="images/p-2.png" alt="logo2">
+                </header>
+                <div class="popular-title">
+                    <h4 class="popular-text">Spider-Man: No Way Home</h4>
+                    <p class="popular-paragraph">Action, Adventure, Fantasy</p>
+                </div>
+                <footer class="popular-footer">
+                    <img src="images/Union.png" alt="">
+                    <p class="footer-text">8.8/10 IMDb</p>
+                </footer>
+            </div>
+            <div class="popular-list">
+                <header class="popular-image">
+                    <img src="images/p-3.png" alt="logo3">
+                </header>
+                <div class="popular-title">
+                    <h4 class="popular-text">Arcane: League of Legends</h4>
+                    <p class="popular-paragraph">Animation, Action, Adventure</p>
+                </div>
+                <footer class="popular-footer">
+                    <img src="images/Union.png" alt="">
+                    <p class="footer-text">9.2/10 IMDb</p>
+                </footer>
+            </div>
+            <div class="popular-list">
+                <header class="popular-image">
+                    <img src="images/p-4.png" alt="logo4">
+                </header>
+                <div class="popular-title">
+                    <h4 class="popular-text">Joker</h4>
+                    <p class="popular-paragraph">Crime, Drama, Thriller</p>
+                </div>
+                <footer class="popular-footer">
+                    <img src="images/Union.png" alt="">
+                    <p class="footer-text">8,4/10 IMDb</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section member -->
+    <section class="member">
+        <h2 class="member-judul">Pilih Paket yang Cocok <br> Untukmu</h2>
+        <div class="member-content">
+            <div class="member-card">
+                <div class="member-list">
+                    <header class="member-header">
+                        <h4 class="member-title">Standart</h4>
+                    </header>
+                    <div class="member-number">
+                        <h1 class="member-harga">Rp 120,000</h1>
+                        <p>/bulan</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Ponsel, Tablet, Komputer, TV</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>No Ads</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Batalkan Kapan Saja</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Kualitas Video Baik</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Resolusi 480p</p>
+                    </div>
+                    <div class="member-populasi-item">
+                        <p>Resolusi 720p</p>
+                    </div>
+                    <div class="member-populasi-item">
+                        <p>Resolusi 1080p</p>
+                    </div>
+                    <div class="member-populasi-item">
+                        <p>Resolusi 4K+HDR</p>
+                    </div>
+                    <div class="member-button">
+                        <a href="">Pilih Paket</a>
+                    </div>
+                </div>
+                <div class="member-list">
+                    <header class="member-header">
+                        <h4 class="member-title">Standart</h4>
+                    </header>
+                    <div class="member-number">
+                        <h1 class="member-harga">Rp 153,000</h1>
+                        <p>/bulan</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Ponsel, Tablet, Komputer, TV</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>No Ads</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Batalkan Kapan Saja</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Kualitas Video Baik</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Resolusi 480p</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Resolusi 720p</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Resolusi 1080p</p>
+                    </div>
+                    <div class="member-populasi-item">
+                        <p>Resolusi 4K+HDR</p>
+                    </div>
+                    <div class="member-button">
+                        <a href="">Pilih Paket</a>
+                    </div>
+                </div>
+                <div class="member-list">
+                    <header class="member-header">
+                        <h4 class="member-title">Standart</h4>
+                    </header>
+                    <div class="member-number">
+                        <h1 class="member-harga">Rp 186,000</h1>
+                        <p>/bulan</p>
+                    </div>
+                    <<div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Ponsel, Tablet, Komputer, TV</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>No Ads</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Batalkan Kapan Saja</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Kualitas Video Baik</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Resolusi 480p</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Resolusi 720p</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Resolusi 1080p</p>
+                    </div>
+                    <div class="member-populasi">
+                        <img src="images/cheklist.png" alt="">
+                        <p>Resolusi 4K+HDR</p>
+                    </div>
+                    <div class="member-button">
+                        <a href="">Pilih Paket</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section langganan -->
+    <section class="langganan">
+        <div class="langganan-banner">
+            <h2 class="langganan-text">Berlangganan Untuk Mendapatkan Informasi Terbaru dan <br> Menjadi Anggota Kami</h2>
+            <div class="langganan-content">
+                <input type="text" placeholder="Enter Your Email">
+                <button class="btn-langganan">Berlangganan</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section footer -->
+    <section class="footer">
+        <div class="footer-header">
+            <img src="images/logos_netflix.png" alt="">
+            <p>Layanan Streaming tanpa iklan dan <br> harga bulanan yang murah</p>
+        </div>
+        <div class="footer-content">
+            <h2>Perusahaan</h2>
+            <div class="footer-text">
+                <p>Tentang Kami</p>
+                <p>Hubungi Kami</p>
+                <p>Karir</p>
+                <p>Blog</p>
+                <p>Investors Relations</p>
+            </div>
+        </div>
+        <div class="footer-content">
+            <h2>Dapatkan Bantuan</h2>
+            <div class="footer-text">
+                <p>FAQ</p>
+                <p>Pusat Bantuan</p>
+                <p>Akun</p>
+            </div>
+        </div>
+        <div class="footer-content">
+            <h2>Lainnya</h2>
+            <div class="footer-text">
+                <p>Tukar Kartu Hadiah</p>
+                <p>Netflix Originals</p>
+                <p>Media Center</p>
+                <p>Blog</p>
+                <p>Investors Relations</p>
+            </div>
+        </div>
+        <div class="footer-content">
+            <h2>Dapatkan Aplikasi Kami</h2>
+            <div class="footer-image">
+                <a href="">
+                    <img src="images/App Store.png" alt="">
+                    <img src="images/Google Play.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- section footer2 -->
+    <section class="footer2">
+        <div class="footer2-text">
+            © 2023 Hak Cipta Terpelihara oleh Netflix Indonesia
+        </div>
+        <div class="footer2-description">
+            <a href="">Persyaratan Layanan</a>
+            <a href="">Kebijakan Privasi</a>
+        </div>
+    </section>
+</body>
+
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+</html>
